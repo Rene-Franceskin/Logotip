@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+  
+    <div class="container">
+      <!-- <div class="menu-container"> -->
+      <div class="menu">
+        <div class="menu-structure">
+          <ion-icon name="logo-twitter" class="icon main-icon"></ion-icon>
+          <div class="menu-item">
+            <ion-icon name="home-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Home</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="globe-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Explore</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="notifications-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Notifications</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="mail-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Messages</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="bookmark-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Bookmarks</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="list-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Lists</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon name="person-circle-outline" class="icon"></ion-icon>
+            <h2 class="menu-heading">Profile</h2>
+          </div>
+          <div class="menu-item">
+            <ion-icon
+              name="ellipsis-horizontal-circle-outline"
+              class="icon"
+            ></ion-icon>
+            <h2 class="menu-heading">More</h2>
+          </div>
+          <button class="tweet-btn">Tweet</button>
+        </div>
+        <div class="user-btn">
+          <img src="./img/user2.jpg" alt="user" />
+          <div class="user-name">
+            <p class="user-text">Kevin</p>
+            <p class="user-tag">@Kevlord123</p>
+          </div>
+          <ion-icon
+            name="ellipsis-horizontal-outline"
+            class="user-icon"
+          ></ion-icon>
+        </div>
+      </div>
+      <!-- </div> -->
+
+      <div class="main">
+        <div class="latest">
+          <h3>Latest Tweets</h3>
+          <ion-icon name="sparkles-outline" class="latest-icon"></ion-icon>
+        </div>
+        <div class="tweet-box">
+          <img src="./img/user2.jpg" alt="user" />
+          <p>What's happening?</p>
+          <div class="tweet-icons">
+            <ion-icon name="image-outline" class="tweet-icon"></ion-icon>
+            <ion-icon
+              name="color-palette-outline"
+              class="tweet-icon"
+            ></ion-icon>
+            <ion-icon name="bar-chart-outline" class="tweet-icon"></ion-icon>
+            <ion-icon name="happy-outline" class="tweet-icon"></ion-icon>
+            <ion-icon
+              name="calendar-number-outline"
+              class="tweet-icon"
+            ></ion-icon>
+            <ion-icon name="location-outline" class="tweet-icon"></ion-icon>
+          </div>
+          <button class="main-tweet-btn">Tweet</button>
+        </div>
+        <div class="underline"></div>
+
+        <!-- individual tweets -->
+        <div class="tweet">
+          <img
+            src="./img/user1.jpg"
+            alt="user photo"
+            class="tweeter-img"
+          />
+          <p class="tweeter-info">
+            <span class="username">Amy Kelleher</span>
+            <span class="usertag">@killeramy</span>
+            <span class="tweeted-ago">32m</span>
+          </p>
+          <ion-icon
+            name="ellipsis-horizontal-outline"
+            class="settings-icon"
+          ></ion-icon>
+          <p class="tweet-content">
+            Got the job at Google! Someone congratulate me plz
+          </p>
+          <div class="tweet-menu">
+            <div class="count-box">
+              <ion-icon name="chatbubble-outline"></ion-icon>
+              <span class="count">2</span>
+            </div>
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <div class="count-box">
+              <ion-icon name="heart-outline"></ion-icon>
+              <span class="count">8</span>
+            </div>
+            <ion-icon name="share-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="tweet">
+          <img
+            src="./img/user3.jpg"
+            alt="user photo"
+            class="tweeter-img"
+          />
+          <p class="tweeter-info">
+            <span class="username">Dave Jones</span>
+            <span class="usertag">@robotman666</span>
+            <span class="tweeted-ago">31m</span>
+          </p>
+          <ion-icon
+            name="ellipsis-horizontal-outline"
+            class="settings-icon"
+          ></ion-icon>
+          <p class="tweet-content">
+            Wow. I'm actually HYPED lmao
+            <iframe
+              width="360"
+              height="215"
+              src="https://www.youtube.com/embed/KydqdKKyGEk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </p>
+          <div class="tweet-menu">
+            <ion-icon name="chatbubble-outline"></ion-icon>
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="share-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="tweet">
+          <img
+            src="./img/user4.jpg"
+            alt="user photo"
+            class="tweeter-img"
+          />
+          <p class="tweeter-info">
+            <span class="username">Charlie Charles</span>
+            <span class="usertag">@charlieboi</span>
+            <span class="tweeted-ago">15m</span>
+          </p>
+          <ion-icon
+            name="ellipsis-horizontal-outline"
+            class="settings-icon"
+          ></ion-icon>
+          <p class="tweet-content">
+            <span class="reply-to">@killeramy</span> lol I just got fired from
+            google so you're probably my replacement. hope u fail miserably
+          </p>
+          <div class="tweet-menu">
+            <ion-icon name="chatbubble-outline"></ion-icon>
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <ion-icon name="heart-outline" class="like"></ion-icon>
+            <ion-icon name="share-outline"></ion-icon>
+          </div>
+        </div>
+		<div class="tweet">
+          <img
+            src="./img/user6.jpg"
+            alt="user photo"
+            class="tweeter-img"
+          />
+          <p class="tweeter-info">
+            <span class="username">Rene Frančeškin</span>
+            <span class="usertag">@renefranceskin</span>
+            <span class="tweeted-ago">5m</span>
+          </p>
+          <ion-icon
+            name="ellipsis-horizontal-outline"
+            class="settings-icon"
+          ></ion-icon>
+          <p class="tweet-content">
+            <span class="reply-to">@charlieboi</span> Look my new canvas logo for Twitter.<img src="img/twitter.png" class="logopng"><br>
+			<canvas id="canvas" height="110" width="110" ></canvas>
+          </p>
+          <div class="tweet-menu">
+            <ion-icon name="chatbubble-outline"></ion-icon>
+            <ion-icon name="git-compare-outline"></ion-icon>
+            <ion-icon name="heart-outline" class="like"></ion-icon>
+            <ion-icon name="share-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="newsfeed-container"> -->
+      <div class="newsfeed">
+        <div class="search">
+          <ion-icon name="search-outline" class="search-icon"></ion-icon>
+          <input type="search" placeholder="Search Twitter" class="searchbar" />
+        </div>
+        <div class="news-box">
+          <h3 class="side-title">What's happening</h3>
+          <div class="news-box-grid">
+            <div class="trending">
+              <p class="news-subheading">Trending in United Kingdom</p>
+              <p class="headline">#Ukraine</p>
+              <p class="tweet-no">5,800 Tweets</p>
+              <ion-icon
+                name="ellipsis-horizontal-outline"
+                class="settings-icon"
+              ></ion-icon>
+            </div>
+            <!-- <div class="underline"></div> -->
+            <div class="latest-news">
+              <p class="news-subheading">Energy Crisis</p>
+              <p class="headline">
+                UK homes face up to 3 hour power cuts this winter
+              </p>
+              <img src="./img/candle.jpg" alt="candle" class="news-image" />
+            </div>
+            <!-- <div class="underline"></div> -->
+            <div class="trending">
+              <p class="news-subheading">Trending Globally</p>
+              <p class="headline">#PS6</p>
+              <p class="tweet-no">23,300 Tweets</p>
+              <ion-icon
+                name="ellipsis-horizontal-outline"
+                class="settings-icon"
+              ></ion-icon>
+            </div>
+            <a href="#" class="show-more-btn">Show more</a>
+          </div>
+        </div>
+        <div class="follow-box">
+          <h3 class="side-title">Who to follow</h3>
+          <div class="follow">
+            <img
+              src="./img/user5.jpg"
+              alt="follow user photo"
+              class="tweeter-img"
+            />
+            <p class="username">Katie Dijong</p>
+            <p class="usertag">@techwriterlady</p>
+            <button type="button" class="follow-btn">Follow</button>
+          </div>
+          <a href="#" class="show-more-btn">Show more</a>
+        </div>
+        <footer>
+          <p>
+            <span class="footer-link">Terms of Service</span>
+            <span class="footer-link">Privacy Policy</span>
+            <span class="footer-link">Cookie Policy</span>
+          </p>
+          <p>&copy; 2022 Twitter, Inc</p>
+        </footer>
+      </div>
+      <!-- </div> -->
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
