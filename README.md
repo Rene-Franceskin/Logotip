@@ -1,4 +1,4 @@
-# <h1 align="center">Logotip za TWITTER</h1>
+# <h1 align="center">Logotip za Twitter</h1>
 
 Ta projekt predstavlja simulacijo znaka Twitter, izdelano s pomočjo HTML5, JavaScript, Canvas in SVG. Glavni poudarek projekta je uporaba Bezierjevih krivulj za natančno risanje znaka na podlagi vnaprej določenih kontrolnih točk.
 
