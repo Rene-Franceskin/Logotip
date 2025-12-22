@@ -63,5 +63,5 @@ Projekt izdelal Rene Frančeškin v okviru šolskega projekta.
 
 ---
 
-## Slika
+## 📸 Slika
 <img width="1782" height="1045" alt="image" src="https://github.com/user-attachments/assets/b80e047f-fc2d-4b82-921f-2bb074f336b5" />
