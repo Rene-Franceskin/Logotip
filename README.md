@@ -46,7 +46,7 @@ Cilj naloge je bil spoznati delovanje Bezierjevih krivulj ter razliko med risanj
 ## 🌐 Demo (GitHub Pages)
 
 Projekt si lahko ogledaš tukaj:
-👉 https://rene-franceskin.github.io/Logotip/
+👉 **https://rene-franceskin.github.io/Logotip/**
 
 ---
 
@@ -59,7 +59,7 @@ Logotip Twitter je zaščitena blagovna znamka.
 
 ## 👤 Avtor
 
-Projekt izdelal Rene Frančeškin v okviru šolskega projekta.
+Projekt izdelal **Rene Frančeškin** v okviru šolskega projekta.
 
 ---
 
