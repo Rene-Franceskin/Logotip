@@ -4,7 +4,7 @@ Ta projekt predstavlja simulacijo znaka Twitter, izdelano s pomočjo HTML5, Java
 
 ---
 
-##**🚀 Funkcionalnosti**
+## 🚀 Funkcionalnosti
 
 Risanje znaka Twitter z uporabo Bezierjevih krivulj
 
@@ -22,7 +22,7 @@ Skalabilna in natančna grafična predstavitev
 
 ---
 
-##**🛠️ Uporabljene tehnologije**
+##🛠️ Uporabljene tehnologije
 
 HTML5 – struktura dokumenta
 
@@ -36,32 +36,32 @@ SVG – risanje znaka s pomočjo <path>
 
 ---
 
-##**🎓 Predstavitev**
+## 🎓 Predstavitev
 
 Gre za šolski projekt, izdelan v okviru predmeta NSA4.
 Cilj naloge je bil spoznati delovanje Bezierjevih krivulj ter razliko med risanjem grafike s Canvas in SVG.
 
 ---
 
-##**🌐 Demo (GitHub Pages)**
+## 🌐 Demo (GitHub Pages)
 
 Projekt si lahko ogledaš tukaj:
 👉 https://rene-franceskin.github.io/Logotip/
 
 ---
 
-##**⚠️ Opomba**
+## ⚠️ Opomba
 
 Projekt je namenjen izključno izobraževalnim namenom.
 Logotip Twitter je zaščitena blagovna znamka.
 
 ---
 
-##**👤 Avtor**
+## 👤 Avtor
 
 Projekt izdelal Rene Frančeškin v okviru šolskega projekta.
 
 ---
 
-##**Slika**
+## Slika
 <img width="1782" height="1045" alt="image" src="https://github.com/user-attachments/assets/b80e047f-fc2d-4b82-921f-2bb074f336b5" />
