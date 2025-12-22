@@ -6,33 +6,33 @@ Ta projekt predstavlja simulacijo znaka Twitter, izdelano s pomočjo HTML5, Java
 
 ## 🚀 Funkcionalnosti
 
---Risanje znaka Twitter z uporabo Bezierjevih krivulj
+- Risanje znaka Twitter z uporabo Bezierjevih krivulj
 
---Implementacija risanja s pomočjo:
+- Implementacija risanja s pomočjo:
 
---Canvas (bezierCurveTo)
+- Canvas (bezierCurveTo)
 
---SVG (<path>)
+- SVG (<path>)
 
---Prikaz znaka neposredno v brskalniku
+- Prikaz znaka neposredno v brskalniku
 
---Skalabilna in natančna grafična predstavitev
+- Skalabilna in natančna grafična predstavitev
 
---Čista in pregledna struktura kode
+- Čista in pregledna struktura kode
 
 ---
 
 ## 🛠️ Uporabljene tehnologije
 
---**HTML5** – struktura dokumenta
+- **HTML5** – struktura dokumenta
 
---**CSS3** – osnovno oblikovanje strani
+- **CSS3** – osnovno oblikovanje strani
 
---**JavaScript** – risanje znaka z Canvas API
+- **JavaScript** – risanje znaka z Canvas API
 
---**Canvas** – funkcija bezierCurveTo
+- **Canvas** – funkcija bezierCurveTo
 
---**SVG** – risanje znaka s pomočjo <path>
+- **SVG** – risanje znaka s pomočjo <path>
 
 ---
 
