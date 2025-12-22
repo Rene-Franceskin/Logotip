@@ -22,7 +22,7 @@ Skalabilna in natančna grafična predstavitev
 
 ---
 
-##🛠️ Uporabljene tehnologije
+## 🛠️ Uporabljene tehnologije
 
 HTML5 – struktura dokumenta
 
