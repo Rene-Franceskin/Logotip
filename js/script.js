@@ -8,7 +8,7 @@
               ctx.bezierCurveTo(411, 140, 404, 148, 397, 160);
               ctx.bezierCurveTo(396, 163, 418, 160, 419, 156);
               ctx.bezierCurveTo(412, 182, 388, 193, 389, 193);
-              ctx.bezierCurveTo(399, 224, 341, 472, 103, 364);
+              ctx.bezierCurveTo(399, 224, 341, 472, 107, 370);
               ctx.bezierCurveTo(140, 352, 144, 353, 184, 335);
               ctx.bezierCurveTo(164, 328, 143, 311, 132, 284);
               ctx.bezierCurveTo(131, 288, 152, 282, 148, 283);
@@ -18,4 +18,5 @@
               ctx.bezierCurveTo(140, 156, 180, 209, 251, 204);
               ctx.fill();
               ctx.stroke();
+
               ctx.closePath();
