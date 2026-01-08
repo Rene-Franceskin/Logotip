@@ -18,7 +18,7 @@
               ctx.bezierCurveTo(140, 156, 180, 209, 251, 204);
               ctx.fill();
               ctx.stroke();
-
               ctx.closePath();
+
 
 
