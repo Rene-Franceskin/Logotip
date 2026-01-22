@@ -35,3 +35,27 @@ function drawLogo() {
 drawLogo();
 
 colorPicker.addEventListener("input", drawLogo);
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loading-screen");
+    const path = document.getElementById("twitterPath");
+
+    if (!loader || !path) return;
+
+    // Izračun dolžine poti za animacijo
+    const length = path.getTotalLength();
+    path.style.strokeDasharray = length;
+    path.style.strokeDashoffset = length;
+
+    // Fill efekt po risanju
+    setTimeout(() => {
+        path.style.transition = "fill 0.8s ease-in";
+        path.style.fill = "#1DA1F2";
+    },2000); // po koncu draw animacije
+
+    // Skrij loading screen
+    setTimeout(() => {
+        loader.classList.add("hidden");
+    }, 3500); // po fill animaciji
+});
