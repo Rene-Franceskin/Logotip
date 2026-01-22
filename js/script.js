@@ -3,13 +3,11 @@ const ctx = canvas.getContext("2d");
 const colorPicker = document.getElementById("colorPicker");
 
 function drawLogo() {
-    // Počistimo platno pred ponovnim risanjem
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
-    ctx.save(); // Shranimo stanje
+    ctx.save(); 
     ctx.scale(0.25, 0.25);
     
-    // Nastavimo barvo glede na izbiro v Color Pickerju
     ctx.fillStyle = colorPicker.value; 
     ctx.strokeStyle = colorPicker.value;
 
@@ -32,11 +30,8 @@ function drawLogo() {
     ctx.fill();
     ctx.stroke();
     ctx.closePath();
-    ctx.restore(); // Povrnemo stanje (scale)
+    ctx.restore();
 }
-
-// Pokličemo funkcijo takoj ob naložitvi
 drawLogo();
 
-// Vsakič, ko uporabnik spremeni barvo, se logotip osveži
 colorPicker.addEventListener("input", drawLogo);
